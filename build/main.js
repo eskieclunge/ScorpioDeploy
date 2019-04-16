@@ -81,7 +81,7 @@ var QuestionsPage = /** @class */ (function () {
     };
     QuestionsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-questions',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/'<!--\n  Generated template for the AddcommentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar color="primary">\n      <button ion-button menuToggle> <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title>Pre-Dive Questionnaire</ion-title> \n    </ion-navbar>\n  </ion-header>\n  \n  \n  <ion-content class="content-background" padding style="margin-top: 56px;"> <!-- Extra code added in here so that the content of the modal is seen. -->\n    \n      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqyBIh4pXXX0y0B66lA_uAxJbpgpK2VD10nEs2tu6W2uOs8Q/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>\n    \n  </ion-content>'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/,
+            selector: 'page-questions',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/'<!--\n  Generated template for the AddcommentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar color="primary">\n      <button ion-button menuToggle> <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title>Pre-Dive Questionnaire</ion-title> \n    </ion-navbar>\n  </ion-header>\n  \n  \n  <ion-content class="content-background" padding style="margin-top: 56px;"> <!-- Extra code added in here so that the content of the modal is seen. -->\n    \n      <iframe style="float:left" src="https://docs.google.com/forms/d/e/1FAIpQLSeqyBIh4pXXX0y0B66lA_uAxJbpgpK2VD10nEs2tu6W2uOs8Q/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>\n    \n  </ion-content>'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
@@ -94,51 +94,6 @@ var QuestionsPage = /** @class */ (function () {
 /***/ }),
 
 /***/ 102:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScubaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ScubaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ScubaPage = /** @class */ (function () {
-    function ScubaPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    ScubaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ScubaPage');
-    };
-    ScubaPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-scuba',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/scuba/scuba.html"*/'<!--\n  Generated template for the ScubaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <button ion-button menuToggle> <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Scuba</ion-title> \n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="content-background">\n\n  <ion-grid>\n\n    <ion-row>\n      <ion-card justify-content-center color="primary-pale">\n       \n        <ion-card-title color="card-title" padding>The BEST and SAFEST Scuba Diving for you SINCE 2009!</ion-card-title>\n        <ion-card-content class="ion-text-justify" color="card-content">We a lot to offer. From beginners to advance, theres a dive for all</ion-card-content>\n        \n        <ion-row>\n\n          <ion-col col-12 col-lg-6>\n            <ion-row>\n              <ion-col>\n                <ion-icon style="zoom:4.0;" color="green-dark" name=checkmark-circle-outline></ion-icon>\n                <ion-card-title color="card-title">Small Dive Groups</ion-card-title>\n                <ion-card-content color="card-content">ALL of our dive groups are a ratio of 4:1 or less!</ion-card-content>\n              </ion-col>\n\n              <ion-col>\n                <ion-icon style="zoom:4.0;" color="red-dark" name=globe></ion-icon>\n                <ion-card-title color="card-title">Variety of Places</ion-card-title>\n                <ion-card-content color="card-content">From the MUSA to Cozumel. We have 200+ dive sites.</ion-card-content>\n              </ion-col>\n            </ion-row>\n          </ion-col>\n\n          <ion-col col-12 col-lg-6>\n            <ion-row>\n\n              <ion-col>\n                <ion-icon style="zoom:4.0;" color="blue-dark" name=settings></ion-icon>\n                <ion-card-title color="card-title">Professional Crew</ion-card-title>\n                <ion-card-content color="card-content">We just employ the best in the region. All the crew have 4000+ dives in the area at least.</ion-card-content>\n              </ion-col>\n\n              <ion-col>\n                <ion-icon style="zoom:4.0;" color="orange-dark" name=help-buoy></ion-icon>\n                <ion-card-title color="card-title">Safety</ion-card-title>\n                <ion-card-content color="card-content">All our crew are the best. Our main focus is safety for you and your family.</ion-card-content>\n              </ion-col>\n\n            </ion-row>\n          </ion-col>\n\n        </ion-row>\n\n      </ion-card>\n    </ion-row>\n    <ion-row align-items-center>\n\n      <ion-col col-12 col-lg-6>\n        <img src="../../assets/imgs/sdi.png">\n      </ion-col>\n        \n      <ion-col col-12 col-lg-6>\n        <img src="../../assets/imgs/cozumel.png"> To be replaced with information on the type of dive certifications available\n\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n        <ion-card justify-content-center color="primary-pale">\n          <ion-card-title color="card-title" padding>The BEST and SAFEST Scuba Diving for you SINCE 2009!</ion-card-title>\n          <ion-card-content color="card-content">We a lot to offer. From beginners to advance, theres a dive for all</ion-card-content>\n        </ion-card>\n    </ion-row>  \n\n    <ion-row align-items-center>\n\n      <ion-col col-12 col-lg-6>\n        <img src="../../assets/imgs/cancun.png">\n        </ion-col>\n        \n        <ion-col col-12 col-lg-6>\n        <img src="../../assets/imgs/cozumel.png">\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/scuba/scuba.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], ScubaPage);
-    return ScubaPage;
-}());
-
-//# sourceMappingURL=scuba.js.map
-
-/***/ }),
-
-/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -183,6 +138,51 @@ var ToursPage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 103:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScubaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ScubaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ScubaPage = /** @class */ (function () {
+    function ScubaPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ScubaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ScubaPage');
+    };
+    ScubaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-scuba',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/scuba/scuba.html"*/'<!--\n  Generated template for the ScubaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <button ion-button menuToggle> <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Scuba</ion-title> \n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="content-background">\n\n  <ion-grid>\n\n    <ion-row>\n      <ion-card justify-content-center color="primary-pale">\n       \n        <ion-card-title color="card-title" padding>The BEST and SAFEST Scuba Diving for you SINCE 2009!</ion-card-title>\n        <ion-card-content class="ion-text-justify" color="card-content">We a lot to offer. From beginners to advance, theres a dive for all</ion-card-content>\n        \n        <ion-row>\n\n          <ion-col col-12 col-lg-6>\n            <ion-row>\n              <ion-col>\n                <ion-icon style="zoom:4.0;" color="green-dark" name=checkmark-circle-outline></ion-icon>\n                <ion-card-title color="card-title">Small Dive Groups</ion-card-title>\n                <ion-card-content color="card-content">ALL of our dive groups are a ratio of 4:1 or less!</ion-card-content>\n              </ion-col>\n\n              <ion-col>\n                <ion-icon style="zoom:4.0;" color="red-dark" name=globe></ion-icon>\n                <ion-card-title color="card-title">Variety of Places</ion-card-title>\n                <ion-card-content color="card-content">From the MUSA to Cozumel. We have 200+ dive sites.</ion-card-content>\n              </ion-col>\n            </ion-row>\n          </ion-col>\n\n          <ion-col col-12 col-lg-6>\n            <ion-row>\n\n              <ion-col>\n                <ion-icon style="zoom:4.0;" color="blue-dark" name=settings></ion-icon>\n                <ion-card-title color="card-title">Professional Crew</ion-card-title>\n                <ion-card-content color="card-content">We just employ the best in the region. All the crew have 4000+ dives in the area at least.</ion-card-content>\n              </ion-col>\n\n              <ion-col>\n                <ion-icon style="zoom:4.0;" color="orange-dark" name=help-buoy></ion-icon>\n                <ion-card-title color="card-title">Safety</ion-card-title>\n                <ion-card-content color="card-content">All our crew are the best. Our main focus is safety for you and your family.</ion-card-content>\n              </ion-col>\n\n            </ion-row>\n          </ion-col>\n\n        </ion-row>\n\n      </ion-card>\n    </ion-row>\n    <ion-row align-items-center>\n\n      <ion-col col-12 col-lg-6>\n        <img src="../../assets/imgs/sdi.png">\n      </ion-col>\n        \n      <ion-col col-12 col-lg-6>\n        <img src="../../assets/imgs/cozumel.png"> To be replaced with information on the type of dive certifications available\n\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n        <ion-card justify-content-center color="primary-pale">\n          <ion-card-title color="card-title" padding>The BEST and SAFEST Scuba Diving for you SINCE 2009!</ion-card-title>\n          <ion-card-content color="card-content">We a lot to offer. From beginners to advance, theres a dive for all</ion-card-content>\n        </ion-card>\n    </ion-row>  \n\n    <ion-row align-items-center>\n\n      <ion-col col-12 col-lg-6>\n        <img src="../../assets/imgs/cancun.png">\n        </ion-col>\n        \n        <ion-col col-12 col-lg-6>\n        <img src="../../assets/imgs/cozumel.png">\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/scuba/scuba.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], ScubaPage);
+    return ScubaPage;
+}());
+
+//# sourceMappingURL=scuba.js.map
+
+/***/ }),
+
 /***/ 113:
 /***/ (function(module, exports) {
 
@@ -217,11 +217,11 @@ var map = {
 		2
 	],
 	"../pages/scuba/scuba.module": [
-		276,
+		277,
 		1
 	],
 	"../pages/tours/tours.module": [
-		277,
+		276,
 		0
 	]
 };
@@ -306,8 +306,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(265);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scuba_scuba__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tours_tours__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scuba_scuba__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tours_tours__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_reserve_reserve__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_questions_questions__ = __webpack_require__(101);
@@ -355,8 +355,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/questions/questions.module#QuestionsPageModule', name: 'QuestionsPage', segment: 'questions', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reserve/reserve.module#ReservePageModule', name: 'ReservePage', segment: 'reserve', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/scuba/scuba.module#ScubaPageModule', name: 'ScubaPage', segment: 'scuba', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tours/tours.module#ToursPageModule', name: 'ToursPage', segment: 'tours', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/tours/tours.module#ToursPageModule', name: 'ToursPage', segment: 'tours', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/scuba/scuba.module#ScubaPageModule', name: 'ScubaPage', segment: 'scuba', priority: 'low', defaultHistory: [] }
                     ]
                 }),
             ],
@@ -394,8 +394,8 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scuba_scuba__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tours_tours__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scuba_scuba__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tours_tours__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_reserve_reserve__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
