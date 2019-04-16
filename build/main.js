@@ -81,7 +81,7 @@ var QuestionsPage = /** @class */ (function () {
     };
     QuestionsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-questions',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/'<!--\n  Generated template for the AddcommentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n\n    <ion-title>Pre-Dive Questionnaire</ion-title> \n  </ion-navbar>\n</ion-header>\n  \n  \n\n\n\n  <ion-content class="content-background" padding style="margin-top: 56px;"> <!-- Extra code added in here so that the content of the modal is seen. -->\n      \n      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqyBIh4pXXX0y0B66lA_uAxJbpgpK2VD10nEs2tu6W2uOs8Q/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>\n    \n  </ion-content>'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/,
+            selector: 'page-questions',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/'<!--\n  Generated template for the AddcommentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar color="primary">\n      <button ion-button menuToggle> <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title>Pre-Dive Questionnaire</ion-title> \n    </ion-navbar>\n  </ion-header>\n  \n  \n  <ion-content class="content-background"> <!-- Extra code added in here so that the content of the modal is seen. -->\n    \n      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqyBIh4pXXX0y0B66lA_uAxJbpgpK2VD10nEs2tu6W2uOs8Q/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>\n    \n  </ion-content>'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
@@ -209,11 +209,11 @@ var map = {
 		4
 	],
 	"../pages/questions/questions.module": [
-		274,
+		275,
 		3
 	],
 	"../pages/reserve/reserve.module": [
-		275,
+		274,
 		2
 	],
 	"../pages/scuba/scuba.module": [
@@ -353,8 +353,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/questions/questions.module#QuestionsPageModule', name: 'QuestionsPage', segment: 'questions', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reserve/reserve.module#ReservePageModule', name: 'ReservePage', segment: 'reserve', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/questions/questions.module#QuestionsPageModule', name: 'QuestionsPage', segment: 'questions', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/scuba/scuba.module#ScubaPageModule', name: 'ScubaPage', segment: 'scuba', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tours/tours.module#ToursPageModule', name: 'ToursPage', segment: 'tours', priority: 'low', defaultHistory: [] }
                     ]
@@ -451,7 +451,7 @@ var MyApp = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/app/app.html"*/'<ion-split-pane when="lg">\n\n  <ion-menu [content]="content">\n    <!--\n    <ion-header>\n      <ion-toolbar color="primary-dark">\n        <ion-title>Scorpio Divers</ion-title> </ion-toolbar>\n    </ion-header>\n    -->\n\n    <ion-content class="background-pale" >\n      <ion-list >\n        \n        <ion-list-header color="primary-light" text-wrap>\n          <ion-row>\n          \n            <img src="assets/imgs/ScorpLogo.png" />\n        \n          </ion-row>\n        </ion-list-header>\n\n        <button color="primary-pale" menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n          <ion-icon [name]="p.icon" item-left></ion-icon>\n          {{p.title}} \n        </button>\n        \n        <img src="../assets/imgs/turtle.jpg" class="menu-image">\n      </ion-list>\n    </ion-content>\n\n  </ion-menu>\n\n  <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n  <ion-nav [root]="rootPage" #content swipeBackEnabled="false" main></ion-nav>\n\n</ion-split-pane>'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/app/app.html"*/'<ion-split-pane>\n\n  <ion-menu [content]="content">\n    <!--\n    <ion-header>\n      <ion-toolbar color="primary-dark">\n        <ion-title>Scorpio Divers</ion-title> </ion-toolbar>\n    </ion-header>\n    -->\n\n    <ion-content class="background-pale" >\n      <ion-list >\n        \n        <ion-list-header color="primary-light" text-wrap>\n          <ion-row>\n          \n            <img src="assets/imgs/ScorpLogo.png" />\n        \n          </ion-row>\n        </ion-list-header>\n\n        <button color="primary-pale" menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n          <ion-icon [name]="p.icon" item-left></ion-icon>\n          {{p.title}} \n        </button>\n        \n        <img src="../assets/imgs/turtle.jpg" class="menu-image">\n      </ion-list>\n    </ion-content>\n\n  </ion-menu>\n\n  <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n  <ion-nav [root]="rootPage" #content swipeBackEnabled="false" main></ion-nav>\n\n</ion-split-pane>'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
