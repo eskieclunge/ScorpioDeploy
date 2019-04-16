@@ -1,3 +1,7 @@
+ion-card {
+  border-radius: 30px !important;
+}
+
 ion-row {
   text-align: center;
 }
