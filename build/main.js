@@ -4,52 +4,6 @@ webpackJsonp([5],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ContactPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ContactPage = /** @class */ (function () {
-    function ContactPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    ContactPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ContactPage');
-    };
-    ContactPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/contact/contact.html"*/'<!--\n  Generated template for the ContactPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary" >\n    <button ion-button menuToggle> \n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Contact Us</ion-title> \n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="content-background">\n  \n  <ion-row>\n    <ion-card>\n      <ion-row>\n        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18786.530815933314!2d-86.79542768531084!3d21.14174236272594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2e8a62668935%3A0xebed254cb0baf3a4!2sScorpio+Divers!5e0!3m2!1sen!2sau!4v1554458126459!5m2!1sen!2sau" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>\n      </ion-row>\n      <ion-row>\n        <ion-card-title color="primary">\n              Location Information\n        </ion-card-title>\n      </ion-row>\n      <ion-row>\n        <ion-col>\n          <ion-row>Scorpio Divers Marina, Km 4</ion-row>\n          <ion-row>Pescador Street,</ion-row>\n          <ion-row>Inside: <a href="http://www.hotelsotavento.info">Sotavento Hotel</a></ion-row>\n          <ion-row>Poolside</ion-row>\n        </ion-col>\n\n        <ion-col>\n          <ion-row justify-content-center>Drop us a line and we will get back to you ASAP!</ion-row>\n          <ion-row justify-content-center>(some say we dont sleep)</ion-row>\n          <ion-row justify-content-center><ion-icon name="happy"></ion-icon></ion-row>\n          <ion-row justify-content-center><ion-icon name="call"></ion-icon><a href="tel:5219987349207">: +52 1 998 734 9207</a></ion-row>\n          <ion-row justify-content-center><ion-icon name="call"></ion-icon><a href="https://api.whatsapp.com/send?phone=5219987349207">:WhatsApp Message</a></ion-row>\n          <ion-row justify-content-center><ion-icon name="mail"></ion-icon><a href="mailto:scorpiodivers@gmail.com">scorpiodivers@gmail.com</a></ion-row>\n        </ion-col>\n         \n      </ion-row>  \n    </ion-card>\n  </ion-row>\n\n  <ion-row align-items-center>\n      \n    <ion-col col-12 col-lg-5>\n       \n        <a href="https://www.tripadvisor.com/Attraction_Review-g150807-d1764082-Reviews-Scorpio_Divers_Tours-Cancun_Yucatan_Peninsula.html">\n          <img src="../../assets/imgs/tripa.gif">\n        </a>\n      <ion-card color="primary-pale">\n        <ion-card-content>\n          <ion-card-title color="card-title">\n              <a href="https://www.tripadvisor.com/Attraction_Review-g150807-d1764082-Reviews-Scorpio_Divers_Tours-Cancun_Yucatan_Peninsula.html">\n                Check out our reviews at Trip Advisor\n              </a>\n          </ion-card-title >\n        </ion-card-content>\n      </ion-card>\n    </ion-col>\n\n    <ion-col col-12 col-lg-7>\n      <img class="round" src="../../assets/imgs/scorp2.jpg">  \n    \n    </ion-col>\n\n  </ion-row>\n</ion-content>\n'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/contact/contact.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], ContactPage);
-    return ContactPage;
-}());
-
-//# sourceMappingURL=contact.js.map
-
-/***/ }),
-
-/***/ 101:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuestionsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
@@ -81,7 +35,7 @@ var QuestionsPage = /** @class */ (function () {
     };
     QuestionsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-questions',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/'<!--\n  Generated template for the AddcommentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar color="primary">\n      <button ion-button menuToggle> <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title>Pre-Dive Questionnaire</ion-title> \n    </ion-navbar>\n  </ion-header>\n  \n  \n  <ion-content class="content-background" padding style="margin-top: 56px;"> <!-- Extra code added in here so that the content of the modal is seen. -->\n    \n      <iframe style="float:left" src="https://docs.google.com/forms/d/e/1FAIpQLSeqyBIh4pXXX0y0B66lA_uAxJbpgpK2VD10nEs2tu6W2uOs8Q/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>\n    \n  </ion-content>'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/,
+            selector: 'page-questions',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/'<!--\n  Generated template for the AddcommentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n\n    <ion-title>Pre-Dive Questionnaire</ion-title> \n  </ion-navbar>\n</ion-header>\n  \n  \n\n\n\n  <ion-content class="content-background" padding style="margin-top: 56px;"> <!-- Extra code added in here so that the content of the modal is seen. -->\n    \n      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqyBIh4pXXX0y0B66lA_uAxJbpgpK2VD10nEs2tu6W2uOs8Q/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>\n    \n  </ion-content>'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/questions/questions.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
@@ -93,7 +47,7 @@ var QuestionsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 102:
+/***/ 101:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -135,6 +89,52 @@ var ToursPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=tours.js.map
+
+/***/ }),
+
+/***/ 102:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ContactPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ContactPage = /** @class */ (function () {
+    function ContactPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ContactPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ContactPage');
+    };
+    ContactPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-contact',template:/*ion-inline-start:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/contact/contact.html"*/'<!--\n  Generated template for the ContactPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary" >\n    <button ion-button menuToggle> \n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Contact Us</ion-title> \n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="content-background">\n  \n  <ion-row>\n    <ion-card>\n      <ion-row>\n        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18786.530815933314!2d-86.79542768531084!3d21.14174236272594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2e8a62668935%3A0xebed254cb0baf3a4!2sScorpio+Divers!5e0!3m2!1sen!2sau!4v1554458126459!5m2!1sen!2sau" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>\n      </ion-row>\n      <ion-row>\n        <ion-card-title color="primary">\n              Location Information\n        </ion-card-title>\n      </ion-row>\n      <ion-row>\n        <ion-col>\n          <ion-row>Scorpio Divers Marina, Km 4</ion-row>\n          <ion-row>Pescador Street,</ion-row>\n          <ion-row>Inside: <a href="http://www.hotelsotavento.info">Sotavento Hotel</a></ion-row>\n          <ion-row>Poolside</ion-row>\n        </ion-col>\n\n        <ion-col>\n          <ion-row justify-content-center>Drop us a line and we will get back to you ASAP!</ion-row>\n          <ion-row justify-content-center>(some say we dont sleep)</ion-row>\n          <ion-row justify-content-center><ion-icon name="happy"></ion-icon></ion-row>\n          <ion-row justify-content-center><ion-icon name="call"></ion-icon><a href="tel:5219987349207">: +52 1 998 734 9207</a></ion-row>\n          <ion-row justify-content-center><ion-icon name="call"></ion-icon><a href="https://api.whatsapp.com/send?phone=5219987349207">:WhatsApp Message</a></ion-row>\n          <ion-row justify-content-center><ion-icon name="mail"></ion-icon><a href="mailto:scorpiodivers@gmail.com">scorpiodivers@gmail.com</a></ion-row>\n        </ion-col>\n         \n      </ion-row>  \n    </ion-card>\n  </ion-row>\n\n  <ion-row align-items-center>\n      \n    <ion-col col-12 col-lg-5>\n       \n        <a href="https://www.tripadvisor.com/Attraction_Review-g150807-d1764082-Reviews-Scorpio_Divers_Tours-Cancun_Yucatan_Peninsula.html">\n          <img src="../../assets/imgs/tripa.gif">\n        </a>\n      <ion-card color="primary-pale">\n        <ion-card-content>\n          <ion-card-title color="card-title">\n              <a href="https://www.tripadvisor.com/Attraction_Review-g150807-d1764082-Reviews-Scorpio_Divers_Tours-Cancun_Yucatan_Peninsula.html">\n                Check out our reviews at Trip Advisor\n              </a>\n          </ion-card-title >\n        </ion-card-content>\n      </ion-card>\n    </ion-col>\n\n    <ion-col col-12 col-lg-7>\n      <img class="round" src="../../assets/imgs/scorp2.jpg">  \n    \n    </ion-col>\n\n  </ion-row>\n</ion-content>\n'/*ion-inline-end:"/Users/Eskieclunge/Documents/Github/ScorpioDivers/Scorpio/src/pages/contact/contact.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], ContactPage);
+    return ContactPage;
+}());
+
+//# sourceMappingURL=contact.js.map
 
 /***/ }),
 
@@ -205,15 +205,15 @@ webpackEmptyAsyncContext.id = 113;
 
 var map = {
 	"../pages/contact/contact.module": [
-		273,
+		276,
 		4
 	],
 	"../pages/questions/questions.module": [
-		274,
+		273,
 		3
 	],
 	"../pages/reserve/reserve.module": [
-		275,
+		274,
 		2
 	],
 	"../pages/scuba/scuba.module": [
@@ -221,7 +221,7 @@ var map = {
 		1
 	],
 	"../pages/tours/tours.module": [
-		276,
+		275,
 		0
 	]
 };
@@ -307,10 +307,10 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(265);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scuba_scuba__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tours_tours__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tours_tours__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_reserve_reserve__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_questions_questions__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_questions_questions__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -352,10 +352,10 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/questions/questions.module#QuestionsPageModule', name: 'QuestionsPage', segment: 'questions', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reserve/reserve.module#ReservePageModule', name: 'ReservePage', segment: 'reserve', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tours/tours.module#ToursPageModule', name: 'ToursPage', segment: 'tours', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/scuba/scuba.module#ScubaPageModule', name: 'ScubaPage', segment: 'scuba', priority: 'low', defaultHistory: [] }
                     ]
                 }),
@@ -395,9 +395,9 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scuba_scuba__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tours_tours__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_tours_tours__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_reserve_reserve__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contact_contact__ = __webpack_require__(102);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -471,7 +471,7 @@ var MyApp = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReservePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__questions_questions__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__questions_questions__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
